@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Admin Panel</title>
+
+    <link rel="stylesheet" href="admin.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h1>College Chatbot Admin Panel</h1>
+
+        <input
+            type="text"
+            id="question"
+            placeholder="Enter Question">
+
+        <textarea
+            id="answer"
+            placeholder="Enter Answer"></textarea>
+
+        <button onclick="addFAQ()">
+            Add FAQ
+        </button>
+
+        <input
+         type="text"
+         id="search"
+         placeholder="Search FAQs..."
+         onkeyup="searchFAQ()"
+         >
+          <button onclick="logout()">
+           Logout
+          </button>
+        <hr>
+
+        <h2>All FAQs</h2>
+
+        <div id="faqList"></div>
+
+    </div>
+
+    <script src="admin.js"></script>
+
+</body>
+
+</html>

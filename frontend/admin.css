@@ -1,0 +1,51 @@
+body{
+
+    font-family:Arial;
+
+    margin:40px;
+
+    background:#f5f5f5;
+
+}
+
+.container{
+
+    background:white;
+
+    padding:20px;
+
+    border-radius:10px;
+
+    width:500px;
+
+}
+
+input,textarea{
+
+    width:100%;
+
+    padding:10px;
+
+    margin:10px 0;
+
+}
+
+button{
+
+    padding:10px 20px;
+
+    cursor:pointer;
+
+}
+
+.faq{
+
+    background:white;
+
+    margin-top:20px;
+
+    padding:15px;
+
+    border-radius:10px;
+
+}
